@@ -16,9 +16,17 @@ html, body {
   height: $h; width: $w;
 }
 
-@mixin flex-settings($j-content:center, $a-items:none) {
+@mixin flex-settings($j-content:center, $a-items:none,$f-direction:row) {
   display: flex;
   justify-content: $j-content;
   align-items: $a-items;
+  flex-direction: $f-direction;
 }
-
+@mixin button($w:279px) {
+  height: 50px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border: 1px solid #000000;
+  font-weight: bold;
+  border-radius: 50px;
+  width: $w;
+}

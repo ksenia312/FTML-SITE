@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Intro.module.scss';
+import Button from "../Button/Button";
 
 
 export default class Intro extends React.Component {
@@ -10,7 +11,7 @@ export default class Intro extends React.Component {
           <h1 className={style.h1}>Клуб фронтенд <br/>разработки FTML</h1>
           <>Хочешь заниматься фронтендом или уже что-то умеешь? <br/>Вступай в наш клуб и найти единомышленников</>
           <>
-            <button className={style.button}>Вступить</button>
+            <Button content='Вступить'/>
           </>
         </div>
         <div className={style.meaning_block}>
@@ -22,7 +23,8 @@ export default class Intro extends React.Component {
           </ul>
         </div>
         <div className={style.notification}>
-          Клуб будет полезен студентам, которые хотят чего-то большего. Если ты готов развивать свои hard skills в клиентской стороне пользовательского интерфейса, то тебе к нам
+          Клуб будет полезен студентам, которые хотят чего-то большего. Если ты готов развивать свои hard skills в
+          клиентской стороне пользовательского интерфейса, то тебе к нам
         </div>
       </div>
     )

@@ -1,6 +1,7 @@
 @import "src/styles/index";
 
 .intro_container {
+  border: $markup;
   padding:148px 0 0 125px;
   background: $b-color top center no-repeat url('../../assets/files/background.png');
   height: 810px;
@@ -11,13 +12,6 @@
     justify-content: space-between;
     height: 242px;
     line-height: 140%;
-    .button {
-      height: 50px;
-      background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-      border: 1px solid #000000;
-      border-radius: 50px;
-      width: 279px;
-    }
   }
   .meaning_block {
     border: $markup;

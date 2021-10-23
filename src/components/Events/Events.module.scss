@@ -1,0 +1,19 @@
+@import "src/styles/index";
+
+.events_container {
+  border: $markup;
+  @include sizes($h: 438px);
+  @include flex-settings($a-items: center, $j-content: none);
+  padding: 0 0 0 125px;
+
+  .events {
+    border: $markup;
+    @include flex-settings($j-content: space-between, $f-direction: column);
+    @include sizes($h: 282px);
+  }
+
+  .lamp {
+    border: $markup;
+    margin-left: 180px;
+  }
+}
