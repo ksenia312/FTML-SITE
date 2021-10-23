@@ -1,0 +1,22 @@
+@import "src/styles/index";
+.header {
+  border: $markup;
+  @include flex-settings($j-content:end);
+  @include sizes($h:112px, $w:100%);
+  position:fixed;
+  .header_logo {
+    position: absolute;
+    top:30px; left: 120px;
+  }
+  .navbar {
+    border: $markup;
+    @include flex-settings($a-items:center);
+    @include sizes($h:100%);
+    margin-right: 10px;
+    .navbarItem {
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 30px;
+    }
+  }
+}
