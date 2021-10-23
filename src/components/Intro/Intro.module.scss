@@ -1,0 +1,32 @@
+@import "src/styles/index";
+
+.intro_container {
+  .intro {
+    border: $markup;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 242px;
+    line-height: 140%;
+    .button {
+      height: 50px;
+      background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+      border: 1px solid #000000;
+      border-radius: 50px;
+      width: 279px;
+    }
+  }
+  .meaning_block {
+    border: $markup;
+    margin-top: 185px;
+    .ul {
+      line-height: 2.3em;
+      padding-left: 25px;
+      list-style-image: url('../../assets/files/marker.png');
+      li {
+        border: $markup;
+        padding-left: 15px;
+      }
+    }
+  }
+}
