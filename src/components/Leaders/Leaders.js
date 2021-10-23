@@ -12,7 +12,7 @@ import Arrow_right from '../../assets/files/arrow_right.png'
 export default class Leaders extends React.Component {
   render() {
     return (
-      <div className={style.leaders_container}>
+      <div id='leaders' className={style.leaders_container}>
         <h2 className={style.h2}>Руководители</h2>
         <div className={style.carousel_container}>
           <div className={style.carousel}>

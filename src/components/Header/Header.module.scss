@@ -4,6 +4,7 @@
   @include flex-settings($j-content:end);
   @include sizes($h:112px, $w:1200px);
   position:fixed;
+  background: linear-gradient(rgba(0, 17, 52, 0.7), rgba(0, 17, 52, 0.2));
   .header_logo {
     position: absolute;
     top:30px; left: 120px;

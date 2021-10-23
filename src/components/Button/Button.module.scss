@@ -3,3 +3,7 @@
 .button {
   @include button()
 }
+.button:hover {
+  background: linear-gradient(94.26deg, #b088de 9.51%, #6d5ddc 90.23%);
+  box-shadow: 0 0 15px rgba(0, 17, 52, 0.5);
+}

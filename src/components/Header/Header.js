@@ -7,12 +7,12 @@ export default class Header extends React.Component {
     return (
       <header className={style.header}>
         <div className={style.header_logo}>
-            <img src={Logo} alt={'logo'}/>
+            <a href={'#'}><img src={Logo} alt={'logo'}/></a>
         </div>
         <nav className={style.navbar}>
           <a className={style.navbarItem} href={'#'}>Главная</a>
-          <a className={style.navbarItem} href={'#'}>Мероприятия</a>
-          <a className={style.navbarItem} href={'#'}>Руководители</a>
+          <a className={style.navbarItem} href={'#events'}>Мероприятия</a>
+          <a className={style.navbarItem} href={'#leaders'}>Руководители</a>
           <a className={style.navbarItem} href={'#'}>Участники</a>
         </nav>
       </header>

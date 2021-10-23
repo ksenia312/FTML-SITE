@@ -6,7 +6,7 @@ import Lamp from '../../assets/files/lamp.png'
 export default class Events extends React.Component {
   render() {
     return (
-      <div className={style.events_container}>
+      <div id='events' className={style.events_container}>
         <div className={style.events}>
           <h2 className={style.h2}>Ближайшие мероприятия</h2>
           <div>
