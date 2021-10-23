@@ -10,6 +10,7 @@
   }
   .navbar {
     border: $markup;
+    @include flex-settings($a-items:center, $j-content:space-around);
     @include sizes($h:100%, $w:490px);
     .navbarItem {
       display: inline-block;
