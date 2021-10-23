@@ -1,0 +1,16 @@
+:root {
+  font-size: $default-font-size;
+
+  .h1 {
+    font-size: $h1-font-size;
+    font-weight: bold;
+  }
+
+  .h2 {
+    font-size: $h2-font-size;
+    font-weight: bold;
+  }
+
+  color: $default-font-color;
+
+}
