@@ -1,8 +1,7 @@
 @import "src/styles/index";
 .header {
   border: $markup;
-  @include flex-settings($j-content:end);
-  @include sizes($h:112px, $w:1190px);
+  @include sizes($h:112px, $w:1200px);
   position:fixed;
   background: linear-gradient(rgba(0, 17, 52, 0.7), rgba(0, 17, 52, 0.2));
   .header_logo {
@@ -11,10 +10,11 @@
   }
   .navbar {
     border: $markup;
-    @include flex-settings($a-items:center, $j-content:space-around);
     @include sizes($h:100%, $w:490px);
     .navbarItem {
       display: inline-block;
     }
+    position: absolute;
+    top:0; right: 110px;
   }
 }
