@@ -22,13 +22,15 @@ html, body {
   align-items: $a-items;
   flex-direction: $f-direction;
 }
-@mixin button($w:279px) {
+@mixin button($w:max-content) {
   height: 50px;
   background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
   border: 1px solid #000000;
   font-weight: bold;
   border-radius: 50px;
   width: $w;
+  min-width: 279px;
+  padding:0 5%;
 }
 
 @mixin carousel ($i:43px) {

@@ -13,7 +13,7 @@ export default class Header extends React.Component {
           <a className={style.navbarItem} href={'#'}>Главная</a>
           <a className={style.navbarItem} href={'#events'}>Мероприятия</a>
           <a className={style.navbarItem} href={'#leaders'}>Руководители</a>
-          <a className={style.navbarItem} href={'#'}>Участники</a>
+          <a className={style.navbarItem} href={'#participants'}>Участники</a>
         </nav>
       </header>
     )

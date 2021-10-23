@@ -2,7 +2,7 @@
 .header {
   border: $markup;
   @include flex-settings($j-content:end);
-  @include sizes($h:112px, $w:1200px);
+  @include sizes($h:112px, $w:1190px);
   position:fixed;
   background: linear-gradient(rgba(0, 17, 52, 0.7), rgba(0, 17, 52, 0.2));
   .header_logo {
