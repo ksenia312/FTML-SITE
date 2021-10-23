@@ -2,21 +2,20 @@
 .header {
   border: $markup;
   @include flex-settings($j-content:end);
-  @include sizes($h:112px, $w:100%);
+  @include sizes($h:112px, $w:1200px);
   position:fixed;
-  min-width: 800px;
   .header_logo {
     position: absolute;
     top:30px; left: 120px;
   }
   .navbar {
     border: $markup;
-    @include flex-settings($a-items:center);
-    @include sizes($h:100%, $w:680px);
+    @include flex-settings($a-items:center, $j-content:space-around);
+    @include sizes($h:100%, $w:490px);
+    margin-right: 110px;
     .navbarItem {
       font-weight: bold;
       display: inline-block;
-      margin-right: 31px;
     }
   }
 }
