@@ -13,7 +13,6 @@
     border: $markup;
     @include flex-settings($a-items:center, $j-content:space-around);
     @include sizes($h:100%, $w:490px);
-    margin-right: 110px;
     .navbarItem {
       display: inline-block;
     }
