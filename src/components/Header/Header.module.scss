@@ -4,6 +4,7 @@
   @include flex-settings($j-content:end);
   @include sizes($h:112px, $w:100%);
   position:fixed;
+  min-width: 800px;
   .header_logo {
     position: absolute;
     top:30px; left: 120px;
@@ -11,12 +12,11 @@
   .navbar {
     border: $markup;
     @include flex-settings($a-items:center);
-    @include sizes($h:100%);
-    margin-right: 10px;
+    @include sizes($h:100%, $w:680px);
     .navbarItem {
       font-weight: bold;
       display: inline-block;
-      margin-right: 30px;
+      margin-right: 31px;
     }
   }
 }
