@@ -3,24 +3,12 @@
 .leaders_container {
   border: $markup;
   padding: 45px 0 0 125px;
-  @include sizes($h: 545px);
+  @include sizes($h: 550px);
   overflow:hidden;
   background: #121f4d no-repeat top right url('../../assets/files/leaders_background.png');
   .carousel_container {
     margin: 72px 0 0 0;
-    .carousel {
-      border: $markup;
-      @include flex-settings($j-content:none);
-      figure {
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-        margin-right: 43px;
-        figcaption{
-          line-height: 2em;
-        }
-      }
-    }
+   @include carousel;
     .switch {
       margin: 42px 0 0 0;
       @include flex-settings($j-content:none, $a-items:center);

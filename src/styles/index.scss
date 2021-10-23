@@ -30,3 +30,18 @@ html, body {
   border-radius: 50px;
   width: $w;
 }
+
+@mixin carousel ($i:43px) {
+  .carousel {
+    @include flex-settings($j-content:none);
+    figure {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-right: $i;
+      figcaption{
+        line-height: 2em;
+      }
+    }
+  }
+}

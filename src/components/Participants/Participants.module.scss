@@ -1,0 +1,23 @@
+@import "src/styles/index";
+
+.participants_container {
+  border: $markup;
+  padding: 45px 0 0 125px;
+  overflow:hidden;
+  @include sizes($h: 325px);
+  .carousel_container {
+    margin: 40px 0 0 0;
+    border: $markup;
+    @include carousel($i:50px);
+    figure {
+      border: $markup;
+      img {
+        @include sizes($w:200px, $h:200px)
+      }
+    }
+    figcaption{
+      padding: 5px;
+    }
+  }
+
+}
