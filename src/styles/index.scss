@@ -6,8 +6,10 @@
 
 html, body {
   font-family: Raleway, serif;
-  background-image: url('../assets/files/background.png');
-  background-color: $b-color;
+  background: $b-color top center no-repeat url('../assets/files/background.png');
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 @mixin sizes($h:none, $w:none) {
