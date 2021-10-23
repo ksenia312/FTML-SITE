@@ -6,7 +6,7 @@ export default class Button extends React.Component {
 
   render() {
     return (
-      <button className={style.button}>{this.props.content}</button>
+      <button className={style.button}><a href={'https://vk.com/ftmlclub'}>{this.props.content}</a> </button>
     )
   }
 }

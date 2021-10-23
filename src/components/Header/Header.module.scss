@@ -14,7 +14,6 @@
     @include sizes($h:100%, $w:490px);
     margin-right: 110px;
     .navbarItem {
-      font-weight: bold;
       display: inline-block;
     }
   }
