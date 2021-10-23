@@ -1,6 +1,9 @@
 @import "src/styles/index";
 
 .intro_container {
+  padding:148px 0 0 125px;
+  background: $b-color top center no-repeat url('../../assets/files/background.png');
+  height: 810px;
   .intro {
     border: $markup;
     display: flex;
@@ -28,5 +31,16 @@
         padding-left: 15px;
       }
     }
+  }
+  .notification {
+    margin: 42px 0 0 120px;
+    border: $markup;
+    width: 675px;
+    height: 62px;
+    line-height: 140%;
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 11px;
+    background: linear-gradient(90.92deg, #C89AFC -20.7%, #7C6AFA 111.12%);
   }
 }

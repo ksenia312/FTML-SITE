@@ -8,9 +8,7 @@ export default class Intro extends React.Component {
       <div className={style.intro_container}>
         <div className={style.intro}>
           <h1 className={style.h1}>Клуб фронтенд <br/>разработки FTML</h1>
-          <>
-            Хочешь заниматься фронтендом или уже что-то умеешь? <br/>Вступай в наш клуб и найти единомышленников
-          </>
+          <>Хочешь заниматься фронтендом или уже что-то умеешь? <br/>Вступай в наш клуб и найти единомышленников</>
           <>
             <button className={style.button}>Вступить</button>
           </>
@@ -20,8 +18,11 @@ export default class Intro extends React.Component {
           <ul className={style.ul}>
             <li>начинающие разработчики</li>
             <li>люди, заинтересованные получить свой первый опыт в разработке реальных кейсов</li>
-            <li>опытные разработчики </li>
+            <li>опытные разработчики</li>
           </ul>
+        </div>
+        <div className={style.notification}>
+          Клуб будет полезен студентам, которые хотят чего-то большего. Если ты готов развивать свои hard skills в клиентской стороне пользовательского интерфейса, то тебе к нам
         </div>
       </div>
     )
