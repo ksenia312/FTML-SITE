@@ -3,7 +3,7 @@
 .events_container {
   border: $markup;
   @include sizes($h: 438px);
-  @include flex-settings($a-items: center, $j-content: none);
+  @include flex-settings($a-items: center, $j-content: space-between);
   padding: 0 0 0 125px;
 
   .events {
@@ -14,6 +14,6 @@
 
   .lamp {
     border: $markup;
-    margin-left: 180px;
+    margin-right: 180px;
   }
 }

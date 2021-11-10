@@ -3,6 +3,10 @@
 @import "variables";
 @import "root";
 
+%main_sizes {
+  min-width: 900px;
+  max-width: 1800px;
+}
 
 html, body {
   font-family: Raleway, sans-serif;
@@ -10,8 +14,7 @@ html, body {
   position: relative;
   margin: 0 auto;
   //width: 1200px;
-  min-width: 900px;
-  max-width: 1400px;
+  @extend %main_sizes
 }
 
 @mixin sizes($h:none, $w:none) {

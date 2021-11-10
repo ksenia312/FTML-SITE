@@ -2,8 +2,7 @@
 .header {
   border: $markup;
   @include sizes($h:112px, $w:100%);
-  min-width: 900px;
-  max-width: 1400px;
+  @extend %main_sizes;
   position:fixed;
   background: linear-gradient(rgba(0, 17, 52, 0.7), rgba(0, 17, 52, 0.2));
   .header_logo {
