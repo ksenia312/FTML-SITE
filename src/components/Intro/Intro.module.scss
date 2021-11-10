@@ -4,6 +4,10 @@
   border: $markup;
   padding:148px 0 0 125px;
   background: $b-color top center no-repeat url('../../assets/files/background.png');
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
   height: 810px;
   .intro {
     border: $markup;
@@ -15,7 +19,7 @@
   }
   .meaning_block {
     border: $markup;
-    margin-top: 185px;
+    margin-top: 10%;
     .ul {
       line-height: 2.3em;
       padding-left: 25px;

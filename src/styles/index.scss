@@ -9,7 +9,9 @@ html, body {
   background-color: $b-color;
   position: relative;
   margin: 0 auto;
-  width: 1200px;
+  //width: 1200px;
+  min-width: 900px;
+  max-width: 1400px;
 }
 
 @mixin sizes($h:none, $w:none) {
