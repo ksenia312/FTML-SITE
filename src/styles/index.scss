@@ -5,7 +5,7 @@
 
 %main_sizes {
   min-width: 900px;
-  max-width: 1800px;
+  max-width: 100%;
 }
 
 html, body {
@@ -13,7 +13,6 @@ html, body {
   background-color: $b-color;
   position: relative;
   margin: 0 auto;
-  //width: 1200px;
   @extend %main_sizes
 }
 

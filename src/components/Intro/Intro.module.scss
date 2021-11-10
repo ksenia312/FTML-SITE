@@ -4,10 +4,10 @@
   border: $markup;
   padding:148px 0 0 125px;
   background: $b-color top center no-repeat url('../../assets/files/background.png');
-  -moz-background-size: 100%; /* Firefox 3.6+ */
-  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-  -o-background-size: 100%; /* Opera 9.6+ */
-  background-size: 100%; /* Современные браузеры */
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   height: 810px;
   .intro {
     border: $markup;
@@ -16,10 +16,12 @@
     justify-content: space-between;
     height: 242px;
     line-height: 140%;
+    width: max-content;
   }
   .meaning_block {
     border: $markup;
-    margin-top: 10%;
+    margin-top: 150px;
+    width: max-content;
     .ul {
       line-height: 2.3em;
       padding-left: 25px;
@@ -31,10 +33,10 @@
     }
   }
   .notification {
-    margin: 42px 0 0 120px;
+    margin: 50px 0 0 15%;
     border: $markup;
-    width: 675px;
-    height: 62px;
+    width: 60%;
+    //height: 62px;
     line-height: 140%;
     padding: 24px 16px;
     text-align: center;

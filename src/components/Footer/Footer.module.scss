@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
   .h2 {
-
+    border: $markup;
+    width: 30%;
   }
   .footer_button {
     margin-left: 150px;
