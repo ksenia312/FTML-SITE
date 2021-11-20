@@ -1,5 +1,12 @@
-@import "src/styles/index";
+@import "src/styles/variables";
+@import "../../styles/layouts";
+@media all and (max-width: 930px) {
+  .intro_container {
+    padding:148px 0 0 50px !important;
 
+  }
+
+}
 .intro_container {
   border: $markup;
   padding:148px 0 0 125px;
@@ -16,12 +23,12 @@
     justify-content: space-between;
     height: 242px;
     line-height: 140%;
-    width: max-content;
+
   }
   .meaning_block {
     border: $markup;
     margin-top: 150px;
-    width: max-content;
+    //width: max-content;
     .ul {
       line-height: 2.3em;
       padding-left: 25px;

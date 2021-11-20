@@ -2,11 +2,8 @@
 @import "fonts";
 @import "variables";
 @import "root";
+@import "layouts";
 
-%main_sizes {
-  min-width: 900px;
-  max-width: 1800px;
-}
 
 html, body {
   font-family: Raleway, sans-serif;
@@ -16,38 +13,3 @@ html, body {
   @extend %main_sizes
 }
 
-@mixin sizes($h:none, $w:none) {
-  height: $h; width: $w;
-}
-
-@mixin flex-settings($j-content:center, $a-items:none,$f-direction:row) {
-  display: flex;
-  justify-content: $j-content;
-  align-items: $a-items;
-  flex-direction: $f-direction;
-}
-@mixin button($w:max-content) {
-  height: 50px;
-  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-  border: 1px solid #000000;
-  font-weight: bold;
-  border-radius: 50px;
-  width: $w;
-  min-width: 279px;
-  padding:0 5%;
-}
-
-@mixin carousel ($i:43px) {
-  .carousel {
-    @include flex-settings($j-content:none);
-    figure {
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: bold;
-      margin-right: $i;
-      figcaption{
-        line-height: 2em;
-      }
-    }
-  }
-}

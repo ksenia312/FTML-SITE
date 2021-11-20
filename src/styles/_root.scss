@@ -2,15 +2,24 @@
   font-size: $default-font-size;
   color: $default-font-color;
 
-  .h1 {
+  h1 {
     font-size: $h1-font-size;
     font-weight: bold;
     line-height: 110%;
   }
 
-  .h2 {
+  h2 {
     font-size: $h2-font-size;
     font-weight: bold;
     line-height: 110%;
   }
+}
+
+@media all and (max-width: 930px) {
+
+  :root {
+    font-size: $default-font-size * 1.5;
+
+  }
+
 }

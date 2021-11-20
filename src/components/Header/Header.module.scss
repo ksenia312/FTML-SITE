@@ -1,22 +1,60 @@
-@import "src/styles/index";
+@import "src/styles/variables";
+@import "../../styles/layouts";
+
+@media all and (max-width: 930px) {
+  .header{
+    text-align: center;
+    .header_logo {
+      padding-left:0 !important;
+    }
+    .navbar {
+      top:112px !important;
+      left: 0 !important;
+      .navbarItem {
+        display: none;
+      }
+    }
+    .navbar.open {
+      @include flex-settings($a-items: start, $j-content: space-between, $f-direction:column);
+      //@include sizes($h: 100%, $w: 50%);
+      @include sizes($h: 200px, $w: 100%);
+
+      .navbarItem {
+        display: block;
+        width: 100%;
+        padding: 30px 0; margin-top: 5px;
+        background: rgba(0, 17, 52, 0.7);
+      }
+    }
+
+  }
+
+}
 .header {
   border: $markup;
-  @include sizes($h:112px, $w:100%);
+  @include sizes($h: 112px, $w: 100%);
   @extend %main_sizes;
-  position:fixed;
+  position: fixed;
   background: linear-gradient(rgba(0, 17, 52, 0.7), rgba(0, 17, 52, 0.2));
+
   .header_logo {
-    position: absolute;
-    top:30px; left: 120px;
+    margin-top: 30px;
+    padding-left: 120px;
   }
+
   .navbar {
     border: $markup;
-    @include flex-settings($a-items:center, $j-content:space-around);
-    @include sizes($h:100%, $w:490px);
+    @include flex-settings($a-items: center, $j-content: space-around);
+    @include sizes($h: 100%, $w: 50%);
+
     .navbarItem {
-      display: inline-block;
+      padding: 5px;
     }
+
     position: absolute;
-    top:0; right: 110px;
+    top: 0;
+    right: 110px;
   }
+
+
 }
